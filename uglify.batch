@@ -1,0 +1,4 @@
+// Put in a single file with properties mangled
+uglifyjs js/tree-kit/clone.js  js/cookie.js   js/plugin.js  js/core.js  js/data.js  js/fight.js  js/dialog.js js/doc.js  js/music.js js/specialkeys.js   js/messages.js   -o game.min.js --reserve-domprops --reserved-file reserved --mangle-props
+// Fully compress and mangle the previous file
+uglifyjs game.min.js -o mangle.min.js --reserve-domprops --reserved-file reserved --mangle-props -m -c

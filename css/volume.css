@@ -1,0 +1,109 @@
+#volume {
+	position: absolute;
+
+	float: right;
+	width: 35vw;
+	max-width: 320px;
+
+	margin-left: 0px;
+	display: flex;
+}
+
+#volume * {
+	margin-left: inherit;
+}
+
+#volume-text {
+	margin-top: 4px;
+}
+
+#volume input {
+  -webkit-appearance: none;
+  width: calc(100% - 85px);
+  margin: auto 10px;
+	flex-grow: 1;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 11.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: rgba(48, 113, 169, 1);
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 1.5px 1.5px 1px #000031, 0px 0px 1.5px #00004b;
+  border: 1.8px solid rgba(0, 0, 30, 0);
+  height: 26px;
+  width: 26px;
+  border-radius: 0px;
+  background: #ffffff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7.5px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: rgba(55, 129, 193, 1);
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 11.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: rgba(48, 113, 169, 1);
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 1.5px 1.5px 1px #000031, 0px 0px 1.5px #00004b;
+  border: 1.8px solid rgba(0, 0, 30, 0);
+  height: 26px;
+  width: 26px;
+  border-radius: 0px;
+  background: #ffffff;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 11.4px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: rgba(41, 97, 145, 1);
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type=range]::-ms-fill-upper {
+  background: rgba(48, 113, 169, 1);
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type=range]::-ms-thumb {
+  box-shadow: 1.5px 1.5px 1px #000031, 0px 0px 1.5px #00004b;
+  border: 1.8px solid rgba(0, 0, 30, 0);
+  height: 26px;
+  width: 26px;
+  border-radius: 0px;
+  background: #ffffff;
+  cursor: pointer;
+  height: 11.4px;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: rgba(48, 113, 169, 1);
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: rgba(55, 129, 193, 1);
+}
+
+#volume span {
+	visibility: hidden;
+}
