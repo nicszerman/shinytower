@@ -401,6 +401,48 @@ Music.load_sounds=function (){
     }
   });
 
+  sounds['open_door_yellow'] = new Howl({
+    src: ['./res/sound/open_door_yellow.mp3'],
+    sprite: {
+      main: [100, 10000]
+    },
+    loop: false,
+    autoplay: false,
+    html5: true,
+    preload: true,
+    onload: function(){
+      console.log('Finished loading sound "open_door_yellow"');
+    }
+  });
+
+  sounds['open_door_blue'] = new Howl({
+    src: ['./res/sound/open_door_blue.mp3'],
+    sprite: {
+      main: [100, 10000]
+    },
+    loop: false,
+    autoplay: false,
+    html5: true,
+    preload: true,
+    onload: function(){
+      console.log('Finished loading sound "open_door_blue"');
+    }
+  });
+
+  sounds['open_door_red'] = new Howl({
+    src: ['./res/sound/open_door_red.mp3'],
+    sprite: {
+      main: [100, 10000]
+    },
+    loop: false,
+    autoplay: false,
+    html5: true,
+    preload: true,
+    onload: function(){
+      console.log('Finished loading sound "open_door_red"');
+    }
+  });
+
   sounds['pick_up_item'] = new Howl({
     sprite: {
       main: [0, 10000]
