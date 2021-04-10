@@ -353,6 +353,7 @@ var specialItems={
 			itemName: 'door_yellow',
 			action: function(){
 				if(newChar.yellow>0){
+					Music.play_sound('open_door_yellow');
 					newChar.yellow--;
 
 					// Set the tile of the door to a road
@@ -378,6 +379,7 @@ var specialItems={
 			itemName: 'door_blue',
 			action: function(){
 				if(newChar.blue>0){
+					Music.play_sound('open_door_blue');
 					newChar.blue--;
 					// Set the tile of the door to a road
 					setTile(newChar.row, newChar.col, 0);
@@ -398,6 +400,7 @@ var specialItems={
 			itemName: 'door_red',
 			action: function(){
 				if(newChar.red>0){
+					Music.play_sound('open_door_red');
 					newChar.red--;
 					// Set the tile of the door to a road
 					setTile(newChar.row, newChar.col, 0);
