@@ -56,15 +56,7 @@ function fight(mobNumber, afterFun){
   $('#warrior #defense').text(newChar.defense);
   $('#display-fight').css('display', 'block');/*.show()*/;
   Doc.style();
-  setTimeout(
-    attackChar,
-    40,
-    life,
-    attack,
-    defense,
-    mob,
-    (newChar.attack-defense)*2 > life
-    );
+  setTimeout(attackChar, 40, life, attack, defense, mob);
 
 
   var damChar=newChar.attack-mob.defense;
@@ -78,12 +70,8 @@ function fight(mobNumber, afterFun){
   return true;
 }
 
-function attackChar(life, attack, defense, mob, instant_kill = false){
+function attackChar(life, attack, defense, mob){
   var fightSpeed= newChar.data.fight.fightSpeed;
-
-  
-  if (instant_kill) Music.play_sound('attack_strong');
-  else Music.play_sound('attack_normal');
 
   var damChar=newChar.attack-defense;
   life-=damChar;
@@ -114,9 +102,6 @@ function attackChar(life, attack, defense, mob, instant_kill = false){
 
 function attackMob(life, attack, defense, mob){
   var fightSpeed= newChar.data.fight.fightSpeed;
-  
-  // removed because too noisy
-  // Music.play_sound('attack_normal');
 
   var damMob=attack-newChar.defense;
   if(damMob<0)damMob=0;

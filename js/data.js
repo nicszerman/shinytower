@@ -127,7 +127,7 @@ var floors = [	// Save the floors, the index is the
 	14,1,0,0,0,0,1,0,6,56,0,
 	97,1,0,1,1,2,1,2,1,1,0,
 	0,1,0,1,0,0,3,0,0,1,10,
-	0,1,0,1,60,1,1,1,48,1,43,
+	201,1,0,1,60,1,1,1,48,1,43,
 	48,1,0,1,11,1,13,98,0,1,43,
 	49,1,9,1,11,1,1,1,1,1,0,
 	48,1,43,1,0,0,0,1,0,49,0,
@@ -353,7 +353,6 @@ var specialItems={
 			itemName: 'door_yellow',
 			action: function(){
 				if(newChar.yellow>0){
-					Music.play_sound('open_door_yellow');
 					newChar.yellow--;
 
 					// Set the tile of the door to a road
@@ -379,7 +378,6 @@ var specialItems={
 			itemName: 'door_blue',
 			action: function(){
 				if(newChar.blue>0){
-					Music.play_sound('open_door_blue');
 					newChar.blue--;
 					// Set the tile of the door to a road
 					setTile(newChar.row, newChar.col, 0);
@@ -400,7 +398,6 @@ var specialItems={
 			itemName: 'door_red',
 			action: function(){
 				if(newChar.red>0){
-					Music.play_sound('open_door_red');
 					newChar.red--;
 					// Set the tile of the door to a road
 					setTile(newChar.row, newChar.col, 0);
