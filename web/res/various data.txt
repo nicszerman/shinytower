@@ -1,0 +1,46 @@
+At the start:
+This is and old story... A long time ago, there was a kingdom. Although the kingdom is not great, but in the national living a happy life. But one day, a group of monster heaven, they attack the palace and kidnapped the King's only daughter, the next day, the king issued an emergency order to the nation: Who can rescue the Princess, who will be the king.
+
+A level gives 1000 HP, 6 Atk, 6 Def.
+
+The third-floor's sword gives 10 attack points. [OK]
+The fifth-floor's shield gives 10 defense points. [OK]
+The cell on the 4 floor opens when you touch it. [OK]
+The man on the 4 floor opens the door on the second floor. [OK]
+The big coin on the sixth floor gives you 300 gold coins. [OK]
+The wing to the left gives a bit of every stat. (Life: 1000(estimate), Att: 10, Def: 10)
+The super key on the fifth floor gives one key of each kind. [OK]
+The gold sword on the ninth floor gives 40 attack. [OK]
+The shield on the 11 floor gives 4 levels. [OK]
+The super wing on 13 gives a lot of every stat. (Life: 3000(estimate), Att: 30, Def: 30)
+The super key on the fourteenth floor gives one key of each kind. [OK]
+The sword at floor 19 gives 150 Atk [OK]
+The shield at floor 19 gives 190 Def [OK]
+
+The Character can Critical Attack, dealing double damage.
+
+After beating the first Chaos he transforms, so must upgrade stats to 37500, 2250, 1800 
+
+The businessman on level 2 gives:
+Level Up!
+Earned 85 defense and 1000 health!
+Then runs away.
+
+The mysterious man on level 2 gives:
+70 att
+
+
+
+ENDING:
+Everything went back to normal. The fairy gained her powers again. The king gave the throne to the warrior. The warrior and the princess lived a happy life.
+
+
+
+
+
+
+
+
+
+
+

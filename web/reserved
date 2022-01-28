@@ -1,0 +1,22 @@
+{
+
+  "vars": [
+    "global","$","jQuery","Howl","Howler",
+    "HowlerGlobal","Sound","sprite","main",
+    "html5", "Cookies", "dialogs"
+  ],
+  "props":
+    [
+      "global","$","jQuery","Howl","Howler",
+      "HowlerGlobal","Sound","sprite","main",
+      "html5", "Cookies",
+      "dialogs", "fairy_1", "fairy_2", "old_man_1", "old_man_2",
+      "merchant_1", "merchant_2", "thief_1", "thief_2",
+      "princess", "red_devil", "chaos_1", "chaos_1_after", "chaos_2_after",
+      "move", "pick_up_key", "pick_up_item", "move_shop",
+      "exit_shop", "attack_weak", "attack_normal", "attack_strong",
+      "end_fight", "dialog", "end_fairy_dialog", "too_weak", "wind_compass",
+      "use_stairs"
+    ]
+
+}
